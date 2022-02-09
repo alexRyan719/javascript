@@ -1,0 +1,98 @@
+body{
+  background-color: green;
+}
+h1{
+  text-align: center;
+  background-color: black;
+  height: 60px;
+}
+h2{
+  text-align: center;
+}
+form{
+/*   text-align: center; */
+/*   margin-left: 45%; */
+}
+#difForm{
+  margin-left:45%;
+  
+}
+#xoSelect{
+  margin-left:45%;
+}
+.difSelect{
+/*   margin-left:45%; */
+}
+#startButton{
+  text-align: center;
+  margin-left: 47%;
+  margin-bottom: 1%;
+}
+/* #gameBoard{
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin-left: 41%;
+} */
+#gameBoard{
+  background-color: green;
+  height: 320px;
+  width: 320px;
+  margin-left: 41%;
+}
+.location{
+  height: 95px;
+  width: 95px;
+  border-color: white;
+  margin: 1%;
+ 
+}
+/*Example grid style from https://medium.freecodecamp.org/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431  */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+}
+/*End Example  */
+#0{
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-color: black;
+/*   margin-left: 41%; */
+  background-color: white;
+  height: 50px;
+  width: 50px;
+}
+#2{
+  border-left-style: solid;
+  border-bottom-style: solid;
+  text-align: right;
+}
+#4{
+  border-left-style: solid;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-borrom-style: solid;
+}
+#submitMove{
+}
+#6{
+  border-top-style: solid;
+  border-right-style: solid;
+}
+#8{
+  border-left-style: solid;
+  border-right-style: solid;
+}
+#consoleBox{
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 200px;
+  display: none;
+}
+
+/* border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid; */
