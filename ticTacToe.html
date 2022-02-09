@@ -1,0 +1,74 @@
+<!--  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+<body>
+  <h1 id="titleBanner">Do you Tic, Tac, AND Toe?</h1>
+  <div id="consoleBox" >
+    Test
+  </div>
+  <h2 id="xoSelecth2">Do you want to play as X or O?</h2>
+  <form action="" id="xoSelect">
+  <input type="radio" name="xOrO" value="X" onclick="setTimeout(selectXO('X'), 30000)"> X<br>
+  <input type="radio" name="xOrO" value="O" onclick="setTimeout(selectXO('O'), 300000)"> O<br>
+</form>
+  <div id="difForm">
+    <form action="" id="difSelect">
+      <input type="radio" name="difficulty" value="easy" onclick="setTimeout(selectDif('easy'), 30000)" class="radioForm"> Easy<br>
+      <input type="radio" name="difficulty" value="hard" onclick="setTimeout(selectDif('normal'), 300000)" class="radioForm"> Normal<br>  
+       <input type="radio" name="difficulty" value="hard" onclick="setTimeout(selectDif('hard'), 300000)" class="radioForm"> Hard<br>
+      <input type="radio" name="difficulty" value="hard" onclick="setTimeout(selectDif('impossible'), 300000)" class="radioForm"> Impossible<br>  
+    </form>
+  </div>
+  <br>
+  <button onclick="newGame()" id="startButton">Start Game</button>
+  <button onclick="submitMove()" id="submitMove">Submit Move</button>
+  
+  <div id="gameBoard">
+    <div class="buttonRow">
+      <button type="button" class="location" onclick="move('0')" id="0">8</button>
+      <button type="button" class="location" onclick="move('1')" id="1">8</button>
+      <button type="button" class="location" onclick="move('2')" id="2">8</button>
+    </div>
+    <div class="buttonRow">
+      <button type="button" class="location" onclick="move('3')" id="3">8</button>
+      <button type="button" class="location" onclick="move('4')" id="4">8</button>
+      <button type="button" class="location" onclick="move('5')" id="5">8</button>
+    </div> 
+    <div class="buttonRow">
+      <button type="button" class="location" onclick="move('6')" id="6">8</button>
+      <button type="button" class="location" onclick="move('7')" id="7">8</button>
+      <button type="button" class="location" onclick="move('8')" id="8">8</button>
+    </div>   
+  </div>
+  
+  
+<!--   <div id="gameBoard">
+    <div class="boardRow row" >
+      <div class="location  well" id="0">
+        HI INITIAL
+      </div>
+      <div class="location well" id="1">
+        HI ALSO
+      </div>
+      <div class="location well" id="2">
+        FINAL HI
+      </div>
+    </div>
+    <div class="boardRow row">
+      <div class="location" id="3">
+      </div>
+      <div class="location" id="4">
+      </div>
+      <div class="location" id="5">
+      </div>
+    </div>
+    <div class="boardRow row">
+      <div class="location" id="6">
+      </div>
+      <div class="location" id="7">
+      </div>
+      <div class="location" id="8">
+      </div>
+    </div>
+  </div> -->
+
+</body>
