@@ -1,0 +1,50 @@
+<html>
+  <body>
+    <div id="myConsole">
+      test
+    </div>
+    <div class="calcBody">
+      <h1 class="brand"><i>Colorado Instrumentals   </i></h1>
+      <br><br>
+      <div id="calcWindow">
+        <div id="calcTotal">
+        </div>
+      </div>
+      <br>
+      <div class="buttonWell">
+       <div class="buttonRow">
+          <button type="button" class="calcButton" onclick="clearIt()">CE</button>
+          <button type="button" class="calcButton" onclick="clearIt()">C</button>
+          <button type="button" class="calcButton" onclick="del()">Del</button>
+          <button type="button" class="calcButton" onclick="numBut('/')">/</button>
+       </div>
+       <div class="buttonRow">
+          <button type="button" class="calcButton" onclick="numBut('7')">7</button>
+          <button type="button" class="calcButton" onclick="numBut('8')">8</button>
+          <button type="button" class="calcButton" onclick="numBut('9')">9</button>
+          <button type="button" class="calcButton" onclick="numBut('X')">X</button>
+       </div>
+      
+       <div class="buttonRow">
+          <button type="button" class="calcButton" onclick="numBut('4')">4</button>
+          <button type="button" class="calcButton" onclick="numBut('5')">5</button>
+          <button type="button" class="calcButton" onclick="numBut('6')">6</button>
+          <button type="button" class="calcButton" onclick="numBut('-')">-</button>
+       </div>
+      
+       <div class="buttonRow">
+          <button type="button" class="calcButton" onclick="numBut('1')">1</button>
+          <button type="button" class="calcButton" onclick="numBut('2')">2</button>
+          <button type="button" class="calcButton" onclick="numBut('3')">3</button>
+          <button type="button" class="calcButton" onclick="numBut('+')">+</button>
+       </div> 
+      <div class="buttonRow">
+          <button type="button" class="calcButton" onclick="numBut('.')">.</button>
+          <button type="button" class="calcButton" onclick="numBut('0')">0</button>
+          <button type="button" class="calcButton" onclick="numBut("negate")">Neg</button>
+          <button type="button" class="calcButton" onclick="evaluate()">=</button>
+       </div>
+      </div>
+    </div>
+  </body>
+</html>
