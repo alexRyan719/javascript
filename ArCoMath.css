@@ -1,0 +1,36 @@
+body{
+/*   margin-top: 5%; */
+  background-color:  black;
+}
+
+h1{
+  background-color: white;
+  text-align: center;
+}
+
+#brandLogo{
+  float: right;
+  border-color:
+}
+
+#equateWindow{
+  background: white;
+  width: 40%;
+   height: 200px;
+  float: left;
+  margin-right: 10%;
+  padding: 5%;
+  font-size: 172px;
+  text-align: center;
+}
+
+#equateWindowSolution{
+  background: white;
+  width: 10%;
+  height: 200px;
+  float: right;
+  margin-right: 10%;
+  padding: 5%;
+  font-size: 172px;
+  text-align: center;
+}
