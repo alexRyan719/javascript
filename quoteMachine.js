@@ -80,6 +80,7 @@ function showDiv() {
   document.getElementById('newQuoteForm').style.display = "block";
 }
 
+// Add parameters from HTML
 function addQuote(){
   var qObs4 = {
   quote: "This is a test quote",
