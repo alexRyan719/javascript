@@ -6,7 +6,7 @@
 
 # https://codepen.io/A-Rye719/full/LdgdeG - Calculator
 
-# https://codepen.io/A-Rye719/pen/JOzYVm - Calculator Bugged Version
+# https://codepen.io/A-Rye719/full/JOzYVm - Calculator Bugged Version
 
 # https://codepen.io/A-Rye719/full/KoGoyG - ArCo Math
 
